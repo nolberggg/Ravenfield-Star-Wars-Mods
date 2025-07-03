@@ -6,21 +6,55 @@ import SavedPage from "./SavedPage";
 function App() {
   const eras = ["ALL","PREQUEL", "ORIGINAL", "SEQUEL", "OTHER"];
   const [savedMods, setSavedMods] = useState(new Set(JSON.parse(localStorage.getItem("savedMods") || "[]")));
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+  const [cooldown, setCooldown] = useState(false);
 
   const [linkInput, setLinkInput] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
+  React.useEffect(() => {
+    const lastSubmit = localStorage.getItem("lastSubmit");
+    if (lastSubmit && Date.now() - parseInt(lastSubmit, 10) < 60000) {
+      setCooldown(true);
+      const timeout = setTimeout(
+        () => setCooldown(false),
+        60000 - (Date.now() - parseInt(lastSubmit, 10))
+      );
+      return () => clearTimeout(timeout);
+    }
+  }, []);
+
   const handleSubmit = () => {
-    if (!linkInput) return;
+    if (!linkInput.startsWith("https://steamcommunity.com/sharedfiles/filedetails/?id")) {
+      setErrorMessage("Not a valid Steam link.");
+      return;
+    }
+  
+    setErrorMessage("");
+    setIsSubmitting(true);
   
     fetch("/api/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ link: linkInput }),
     })
-      .then(() => setSubmitted(true))
-      .catch((err) => console.error("Submission failed", err));
+      .then(() => {
+        setSubmitted(true);
+        setIsSubmitting(false);
+  
+        // record the submit time and start cooldown
+        localStorage.setItem("lastSubmit", Date.now().toString());
+        setCooldown(true);
+        setTimeout(() => setCooldown(false), 60000);
+      })
+      .catch((err) => {
+        console.error("Submission failed", err);
+        setErrorMessage("Submission failed. Please try again.");
+        setIsSubmitting(false);
+      });
   };
+  
 
   const toggleSave = (modId) => {
     const updated = new Set(savedMods);
@@ -110,26 +144,40 @@ function App() {
                         value={linkInput}
                         onChange={(e) => setLinkInput(e.target.value)}
                       />
+
+                      {errorMessage && (
+                        <p className="text-red-600 text-sm">{errorMessage}</p>
+                      )}
+
                       <div className="flex gap-2">
-                        {!submitted ? (
+                      {!submitted ? (
+                        <div className="flex flex-col gap-2">
                           <button
                             onClick={handleSubmit}
-                            disabled={!linkInput}
-                            className="px-4 py-2 bg-black text-white rounded disabled:bg-gray-500"
+                            disabled={isSubmitting || cooldown}
+                            className={`px-4 py-2 rounded ${
+                              isSubmitting || cooldown ? "bg-gray-500 cursor-not-allowed" : "bg-black text-white"
+                            }`}
                           >
-                            Submit
+                            {isSubmitting ? "Submitting..." : cooldown ? "Cooldown..." : "Submit"}
                           </button>
-                        ) : (
-                          <button
-                            onClick={() => {
-                              setSubmitted(false);
-                              setLinkInput("");
-                            }}
-                            className="px-4 py-2 bg-black text-white rounded"
-                          >
-                            Submit Another
-                          </button>
-                        )}
+                          {cooldown && (
+                            <p className="text-sm text-red-600">
+                              Please wait a minute before submitting again.
+                            </p>
+                          )}
+                        </div>
+                      ) : (
+                        <button
+                          onClick={() => {
+                            setSubmitted(false);
+                            setLinkInput("");
+                          }}
+                          className="px-4 py-2 bg-black text-white rounded"
+                        >
+                          Submit Another
+                        </button>
+                      )}
                       </div>
                     </div>
                   </div>
