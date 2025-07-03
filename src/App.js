@@ -126,7 +126,7 @@ function App() {
                   
                   {/* What is this? */}
                   <div className="flex-1 bg-white text-black rounded-xl shadow p-6">
-                    <h2 className="text-xl font-bold mb-2">What is this?</h2>
+                    <h2 className="text-xl font-bold font-futura mb-2">WHAT IS THIS?</h2>
                     <p>
                       A curated list of Star Wars-themed Ravenfield mods, organized by era and content type. Save your favorites and explore the galaxy of community creations.
                     </p>
@@ -134,7 +134,7 @@ function App() {
 
                   {/* Submit a Mod */}
                   <div className="flex-1 bg-white text-black rounded-xl shadow p-6">
-                    <h2 className="text-xl font-bold mb-2">Is a mod missing? Share it here:</h2>
+                    <h2 className="text-xl font-bold font-futura mb-2">IS A MOD MISSING? LET ME KNOW HERE:</h2>
                     <div className="flex flex-col gap-2">
                       <input
                         type="text"
@@ -162,8 +162,8 @@ function App() {
                             {isSubmitting ? "Submitting..." : cooldown ? "Cooldown..." : "Submit"}
                           </button>
                           {cooldown && (
-                            <p className="text-sm text-red-600">
-                              Please wait a minute before submitting again.
+                            <p className="text-sm font-futura text-red-600">
+                              PLEASE WAIT A MINUTE BEFORE TRYING AGAIN.
                             </p>
                           )}
                         </div>
@@ -185,8 +185,8 @@ function App() {
               </div>
 
               {/* Short Divider + "Explore the mods" */}
-              <div className="text-center mt-8 mb-4">
-                <p className="text-gray-700 uppercase tracking-wide font-semibold">Explore the mods</p>
+              <div className="text-center mt-6 mb-4">
+                <p className="text-gray-700 text-lg uppercase tracking-wide font-semibold font-futura">Explore the mods</p>
               </div>
               <div className="h-0.5 bg-gray-400 mx-[300px] my-4 rounded" />      
               {/* Trilogy Blocks */}
