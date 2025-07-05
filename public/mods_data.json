@@ -720,6 +720,21 @@
     "id": "3024439754"
   },
   {
+    "title": "Galactic Civil War Configuration (Star Wars)",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3022034004",
+    "author": "hampter's Workshop",
+    "contentTypes": [
+      "Game Configuration"
+    ],
+    "date": "2023-08-18 00:00:00",
+    "uniqueVisitors": 3620,
+    "currentSubscribers": 795,
+    "era": "O",
+    "type": "",
+    "notes": "",
+    "id": "3022034004"
+  },
+  {
     "title": "Imperial Star Destroyer",
     "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3021586951",
     "author": "Enoki Sachi's Workshop",
@@ -1249,7 +1264,7 @@
     "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2873226306",
     "author": "Andbrew's Workshop",
     "contentTypes": [
-      "Configuration"
+      "Game Configuration"
     ],
     "date": "2022-10-09 00:00:00",
     "uniqueVisitors": 4738,
@@ -2874,7 +2889,7 @@
     "date": "Jan 20, 2024",
     "uniqueVisitors": 133,
     "currentSubscribers": 200,
-    "era": "Other",
+    "era": "O",
     "type": "",
     "notes": "",
     "id": "3143378768"
@@ -3180,5 +3195,413 @@
     "type": "",
     "notes": "",
     "id": "2996561052"
+  },
+  {
+    "title": "[SWRF] Star Wars: CIS Mechanized Assault Flyer",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2976017556",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 14, 2023 @ 3:56pm",
+    "uniqueVisitors": 4568,
+    "currentSubscribers": 5169,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2976017556"
+  },
+  {
+    "title": "[SWRF] Star Wars: BARC Speeder",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2976014587",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 14, 2023 @ 3:46pm",
+    "uniqueVisitors": 3888,
+    "currentSubscribers": 2948,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2976014587"
+  },
+  {
+    "title": "[SWRF] Star Wars: CIS HMP Gunship",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2976015441",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 14, 2023 @ 3:49pm",
+    "uniqueVisitors": 4030,
+    "currentSubscribers": 5246,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2976015441"
+  },
+  {
+    "title": "[SWRF] Star Wars: CIS Snail Tank",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2976016585",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 14, 2023 @ 3:53pm",
+    "uniqueVisitors": 3374,
+    "currentSubscribers": 5327,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2976016585"
+  },
+  {
+    "title": "[SWRF] Star Wars: Clone Swamp Speeder",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2976010349",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 14, 2023 @ 3:33pm",
+    "uniqueVisitors": 4848,
+    "currentSubscribers": 3705,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2976010349"
+  },
+  {
+    "title": "[SWRF] Star Wars: Geo Fighter + STAP Speeder",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2976011275",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 14, 2023 @ 3:38pm",
+    "uniqueVisitors": 3144,
+    "currentSubscribers": 4015,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2976011275"
+  },
+  {
+    "title": "[SWRF] Star Wars: Hailfire Droid",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2976013010",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 14, 2023 @ 3:41pm",
+    "uniqueVisitors": 3440,
+    "currentSubscribers": 4775,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2976013010"
+  },
+  {
+    "title": "[SWRF] Star Wars: UT-AT",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2978555163",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 20, 2023 @ 6:18pm",
+    "uniqueVisitors": 3874,
+    "currentSubscribers": 3144,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2978555163"
+  },
+  {
+    "title": "[SWRF] Star Wars: Vulture Droid + Hyena Bomber + Belbullab-22",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2978556559",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 20, 2023 @ 6:24pm",
+    "uniqueVisitors": 2943,
+    "currentSubscribers": 5440,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2978556559"
+  },
+  {
+    "title": "[SWRF] Star Wars: Republic Y-Wing and V-19 Torrent",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2978557181",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 20, 2023 @ 6:25pm",
+    "uniqueVisitors": 3418,
+    "currentSubscribers": 5719,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2978557181"
+  },
+  {
+    "title": "[SWRF] Star Wars: V-Wing + ARC-170 + Z-95",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2978557628",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 20, 2023 @ 6:27pm",
+    "uniqueVisitors": 3747,
+    "currentSubscribers": 5378,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2978557628"
+  },
+  {
+    "title": "[SWRF] Star Wars: TX-130's",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2978558062",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 20, 2023 @ 6:29pm",
+    "uniqueVisitors": 4275,
+    "currentSubscribers": 6843,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2978558062"
+  },
+  {
+    "title": "[SWRF] Star Wars: Droid Tri-Fighter",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2979829525",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 23, 2023 @ 2:57pm",
+    "uniqueVisitors": 2860,
+    "currentSubscribers": 5701,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2979829525"
+  },
+  {
+    "title": "[SWRF] Star Wars: Flitknot Speeders (Geonosian Speeders)",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2980934953",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "May 26, 2023 @ 10:44am",
+    "uniqueVisitors": 2612,
+    "currentSubscribers": 3618,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2980934953"
+  },
+  {
+    "title": "[SWRF] Star Wars: LAAT's",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2984635866",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "Jun 3, 2023 @ 6:21pm",
+    "uniqueVisitors": 6722,
+    "currentSubscribers": 6956,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2984635866"
+  },
+  {
+    "title": "[SWRF] Star Wars: AAT + GAT + HAG",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2987672781",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "Jun 10, 2023 @ 8:37pm",
+    "uniqueVisitors": 4304,
+    "currentSubscribers": 6284,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2987672781"
+  },
+  {
+    "title": "[SWRF] Star Wars: Scarab-Class Fighter + Advanced Droid Bomber + Rogue-Class Fighter",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2987673614",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "Jun 10, 2023 @ 8:41pm",
+    "uniqueVisitors": 2843,
+    "currentSubscribers": 3413,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2987673614"
+  },
+  {
+    "title": "[SWRF] Star Wars Turrets",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2987676205",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "Jun 10, 2023 @ 8:52pm",
+    "uniqueVisitors": 4794,
+    "currentSubscribers": 5045,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2987676205"
+  },
+  {
+    "title": "[SWRF] Star Wars: MTT + PAC",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3011930197",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "Jul 29, 2023 @ 2:12pm",
+    "uniqueVisitors": 5200,
+    "currentSubscribers": 5354,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "3011930197"
+  },
+  {
+    "title": "Wookie Warrior",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019813295",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Skins"
+    ],
+    "date": "Aug 13, 2023 @ 2:26pm",
+    "uniqueVisitors": 1493,
+    "currentSubscribers": 2189,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "3019813295"
+  },
+  {
+    "title": "[SWRF] Star Wars: Clone Hovertank + Troop Transport",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3013005577",
+    "author": "Yezzere's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "Jul 31, 2023 @ 1:06pm",
+    "uniqueVisitors": 3749,
+    "currentSubscribers": 4346,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "3013005577"
+  },
+  {
+    "title": "SWBF2 (2017) Clone Trooper",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2997846751",
+    "author": "top.ping's Workshop",
+    "contentTypes": [
+      "Skins"
+    ],
+    "date": "Jul 2, 2023 @ 6:17am",
+    "uniqueVisitors": 215,
+    "currentSubscribers": 132,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "2997846751"
+  },
+  {
+    "title": "TESTING - SWBFI - Rhen Var: Harbour - TESTING",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2863322113",
+    "author": "Fordo 77's Workshop",
+    "contentTypes": [
+      "Maps",
+      "Maps - Mod Tools"
+    ],
+    "date": "Sep 15, 2022 @ 10:36am",
+    "uniqueVisitors": 346,
+    "currentSubscribers": 334,
+    "era": "O",
+    "type": "",
+    "notes": "",
+    "id": "2863322113"
+  },
+  {
+    "title": "TESTING - SWBFI - Bespin: Platforms - TESTING",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2863328470",
+    "author": "Fordo 77's Workshop",
+    "contentTypes": [
+      "Maps",
+      "Maps - Mod Tools"
+    ],
+    "date": "Sep 15, 2022 @ 10:47am",
+    "uniqueVisitors": 406,
+    "currentSubscribers": 352,
+    "era": "O",
+    "type": "",
+    "notes": "",
+    "id": "2863328470"
+  },
+  {
+    "title": "TESTING - SWBFI - Tatooine: Dune Sea - TESTING",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2863332402",
+    "author": "Fordo 77's Workshop",
+    "contentTypes": [
+      "Maps",
+      "Maps - Mod Tools"
+    ],
+    "date": "Sep 15, 2022 @ 10:57am",
+    "uniqueVisitors": 353,
+    "currentSubscribers": 321,
+    "era": "O",
+    "type": "",
+    "notes": "",
+    "id": "2863332402"
+  },
+  {
+    "title": "[TESTING] Gozanti-Class Cruiser",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3137540466",
+    "author": "top.ping's Workshop",
+    "contentTypes": [
+      "Vehicles"
+    ],
+    "date": "Jan 12, 2024 @ 3:44am",
+    "uniqueVisitors": 123,
+    "currentSubscribers": 28,
+    "era": "S",
+    "type": "",
+    "notes": "",
+    "id": "3137540466"
+  },
+  {
+    "title": "[SWRF] Early War Clone Multiskin",
+    "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3152144092",
+    "author": "top.ping's Workshop",
+    "contentTypes": [
+      "Mutators"
+    ],
+    "date": "Feb 1, 2024 @ 9:58pm",
+    "uniqueVisitors": 902,
+    "currentSubscribers": 254,
+    "era": "P",
+    "type": "",
+    "notes": "",
+    "id": "3152144092"
   }
 ]
